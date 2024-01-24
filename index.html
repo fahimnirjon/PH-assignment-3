@@ -10,35 +10,37 @@
 </head>
 <body>
   <span class="bg-white flex flex-col pt-12">
-    <div
-      class="self-center flex w-full max-w-[1170px] items-center justify-between gap-5 max-md:max-w-full max-md:flex-wrap"
-    >
-      <span
-        class="flex justify-between gap-5 my-auto px-5 items-stretch max-md:max-w-full max-md:flex-wrap"
-      >
-        <div class=" text-4xl font-extrabold mt-2.5">Hockey<span class="text-red-500">’</span>s</div>
-        <span class="justify-between items-stretch lg:mx-56 flex gap-5 py-2.5">
-          <div class="text-red-500 text-center text-base font-bold">Home</div>
-          <div class="text-zinc-700 text-center text-base">About</div>
-          <div class="text-zinc-700 text-center text-base">Pages</div>
-          <div class="text-zinc-700 text-center text-base">Blog</div>
-          <div class="text-zinc-700 text-center text-base">Contact</div>
-          
-        </span>
-      </span>
-      <div class="self-stretch flex items-center justify-between gap-5">
-        <img
-          loading="lazy"
-          src="Images/Frame (2).svg"
-          class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full my-auto"
-        />
-        <span
-          class="text-white text-center text-xl font-bold whitespace-nowrap justify-center items-stretch bg-red-500 self-stretch grow px-6 py-4 rounded-lg max-md:px-5"
-        >
-          Get Ticket
-        </span>
+    <div class="navbar bg-base-100 container mx-auto">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a class="font-bold text-[#FF4240]">Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+              
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl lg:text-4xl font-extrabold ">Hockey<span class="text-[#FF4240] lg:text-4xl">'</span>s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="font-bold text-[#FF4240]">Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+            
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn rounded-lg bg-[#FF4240] text-white gap-2.5 lg:font-bold lg:text-xl">Get Ticket</a>
+        </div>
       </div>
-    </div>
     <div
       class="flex-col overflow-hidden self-center relative flex min-h-[550px] w-[1150px] h-[550px] justify-between gap-5 mt-12 pt-12 pb-8 px-8 items-end max-md:max-w-full max-md:flex-wrap max-md:mt-10 max-md:px-5"
     >
